@@ -1,5 +1,6 @@
 import { useState } from "react"
 import  './Navbar.css'
+import logo from '../assets/car-logo.png'
 
 
 const Navbar = () => {
@@ -11,7 +12,7 @@ const Navbar = () => {
             <div className='navbar_contain'>
                 <a href='/'>
                     <img
-                        // src={logo}
+                        src={logo}
                         alt="image"
                         className='logo'
                     />
